@@ -1,1 +1,4 @@
-test one to send the images to docker hub repo
+FROM alpine
+
+CMD [ "echo", "hello images are getting pushed from github repo"]
+
